@@ -1,5 +1,5 @@
 // memory creating and executing values var, let or const
-console.log(name);
+// console.log(name);
 var name = "Harsh";
 let city = "Jaipur";
 const country = "India";
@@ -24,3 +24,8 @@ let concatTwoVariabels = user.concat(title);
 let accountNumberWithStars = accountLastFourDigit.padStart(16,"*");
 let replaceAnySpacificValueInTheVariable = title.replace("mark","Jack");
 let replaceMultipleCharacter = title.replaceAll('a',"A");
+
+//Math methods
+
+let a = Math.round(Math.random()*24)
+console.log(a)
