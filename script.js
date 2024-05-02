@@ -24,6 +24,7 @@ let concatTwoVariabels = user.concat(title);
 let accountNumberWithStars = accountLastFourDigit.padStart(16,"*");
 let replaceAnySpacificValueInTheVariable = title.replace("mark","Jack");
 let replaceMultipleCharacter = title.replaceAll('a',"A");
+let templateLiterals = `Your user name is ${user} and title is ${removeExtraSpaceWithBothEnds}`
 
 //Math methods
 
