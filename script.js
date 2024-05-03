@@ -30,3 +30,4 @@ let templateLiterals = `Your user name is ${user} and title is ${removeExtraSpac
 
 let a = Math.round(Math.random()*24)
 console.log(a)
+
