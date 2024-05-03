@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+#nav{
+    background-color: darkred;
+}
+.nav{
+    background-color: chocolate;
+}
+.nav{
+    background-color: darksalmon;
+}
+.nav{
+    background-color: beige;
+}
+.nav{
+    background-color: blueviolet;
+}
+#nav{
+    background-color: darkslategrey;
+}
+div{
+    background-color: khaki !important;
+}
+.nav ul{
+    font-size: 50px;
+}
+.nav ul li{
+    margin-left: 50px;
+}
