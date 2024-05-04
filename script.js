@@ -43,3 +43,18 @@ if(myVal){
 }else{
     console.log("myVal is falsy")
 }
+
+//comparison operator
+"=="
+"==="
+"!="
+"!=="
+"<"
+">"
+"<="
+">="
+
+//AND OR NOT
+"&&"
+"||"
+"!"
