@@ -31,3 +31,15 @@ let templateLiterals = `Your user name is ${user} and title is ${removeExtraSpac
 let a = Math.round(Math.random()*24)
 console.log(a)
 
+//Types of falsy
+""
+0
+undefined
+null 
+NaN
+let myVal = " "
+if(myVal){
+    console.log("myVal is truthy")
+}else{
+    console.log("myVal is falsy")
+}
