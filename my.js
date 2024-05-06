@@ -67,16 +67,19 @@
 // }
 // console.log("code ended");
 
-const userName = "mark"
-const userAge = 23
+// const userName = "mark"
+// const userAge = 23
 
-console.log(`Name: ${userName}`)
-console.log(`Age: ${userAge}`)
+// console.log(`Name: ${userName}`)
+// console.log(`Age: ${userAge}`)
 
-switch(true){
-  case userAge >= 18 && userAge <= 25 :
-    console.log(`your age is ${userAge} and you can vote now`)
-    break
-  case userAge >= 0 && userAge <= 18 :
-    console.log(`your age is ${userAge} you can't vote`)
-}
+// switch(true){
+//   case userAge >= 18 && userAge <= 25 :
+//     console.log(`your age is ${userAge} and you can vote now`)
+//     break
+//   case userAge >= 0 && userAge <= 18 :
+//     console.log(`your age is ${userAge} you can't vote`)
+// }
+
+let a = 4
+a > 5 ? console.log("yes a is less then 5") : console.log("no a is greater then 5")
