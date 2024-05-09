@@ -163,3 +163,10 @@
 // }
 
 // console.log(obj.address.weather["air-quality"])
+
+// Object.seal(obj)
+// delete obj.name
+// obj.name = "Priya"
+// Object.freeze(obj)
+// obj.name = "Priya"
+// console.log(obj)
