@@ -148,19 +148,19 @@
 
 //OBJECT  <-------------------------------------------------------------------
 
-let obj = {
-    name:"karan",
-    "phone-number":8283720023,
-    address:{
-        state:"up",
-        city:"kanpur",
-        weather:{
-            temprature:"16F",
-            wind:"22km/h",
-            "air-quality":"very-poor"
-        }
-    }
-}
+// let obj = {
+//     name:"karan",
+//     "phone-number":8283720023,
+//     address:{
+//         state:"up",
+//         city:"kanpur",
+//         weather:{
+//             temprature:"16F",
+//             wind:"22km/h",
+//             "air-quality":"very-poor"
+//         }
+//     }
+// }
 
 // console.log(obj.address.weather["air-quality"])
 
@@ -170,3 +170,4 @@ let obj = {
 // Object.freeze(obj)
 // obj.name = "Priya"
 // console.log(obj)
+// console.log('mobileNumber' in obj)
