@@ -171,3 +171,131 @@
 // obj.name = "Priya"
 // console.log(obj)
 // console.log('mobileNumber' in obj)
+
+// const arr = ["banana","mango","cherry","papaya"]
+// const arr1 = ["car","bike","bus","auto","train"]
+// const arr2 = ["cat","dog","goat","cow","horse","buffalo"]
+// const concat = arr.concat(arr1,arr2)
+// arr.pop()
+// arr.shift()
+// arr.push("kela")
+// arr.unshift("jelly")
+// const index = concat.indexOf("car")
+// const includes = concat.includes("car")
+// const reverse = concat.reverse("car")
+// const index1 = concat.indexOf("car")
+// const sort = concat.sort()
+// const reverse = sort.reverse()
+// const slice = sort.slice(5,9)
+// const splice = sort.splice(5,9)
+// console.log(sort)
+// console.log(splice)
+
+
+// const ticTacToi = [["O",null,null],[null,null,"O"],["O",null,"X"]]
+// console.log(ticTacToi)
+
+
+// let num = 0
+// while(num <= 100){
+//     console.log(num)
+//     num++
+// }
+
+// console.log("code ended")
+
+
+// const arr = ["rohan","vikash","anil","abhishek","himanshu"]
+// let i = 0
+// while(i<arr.length){
+//     console.log(arr[i])
+//     i++
+// }
+
+
+// const arr = ["karan","yesh","himanshu","priyanka","anjali","akansha","varun","maya","simran","diya"]
+// let i = 0
+// while(i<arr.length){
+//     console.log(`${i + 1}.${arr.sort()[i]}`)
+//     i++
+// }
+
+
+// const arr = ["karan","yesh","himanshu","priyanka","anjali","akansha","varun","maya","simran","diya"]
+// for(let i = 0; i<arr.length; i++){
+//     console.log(`${i + 1}. ${arr[i]}`)
+// }
+
+// for(let i = 0; i<= 100; i++){
+//     if(i%2 == 0){
+//         console.log(i)
+//     }
+// }
+
+// let i = 0
+// do{
+//     console.log(i)
+//     i++
+// }while(i> 10)
+
+    // function introduction(name,profession,age){
+    //     console.log(`Hi, My name is ${name}`)
+    //     console.log(`I am a ${profession}`)
+    //     console.log(`I am ${age} years old`)
+    // }
+
+    // introduction("Vivek","Software Developer",24)
+
+
+
+    // debugger
+// const name = "rohan"
+// let age = 25
+// function myFun(){
+//     const a = 5
+//     const b = 28
+//     console.log(a+b)
+//     myFun2()
+//     return name
+// }
+// myFun()
+// function myFun2(){
+//     const x = 25
+//     const y = 21
+//     myFun3()
+//     return x+y
+// }
+// function myFun3(){
+//     const firstName = "karan"
+//     const age = 24
+//     const roomNo = 16
+// }
+
+// function myFun(){
+//     function myFun2(){
+//         function myFun3(){
+//             let a = "nick"
+//             let b = 23
+//             let x = d + f
+//             return x
+//         }
+//         let c = "mark"
+//         let d = 12
+//         myFun3()
+//     }
+//     let e = "karan"
+//     let f = 24
+//     myFun2()
+// }
+// myFun()
+
+// myFun()
+// function myFun(){         <---- function declaration and function definition
+//     console.log(name)   
+// }
+
+
+// const myFun = function(){     <---- function expression and function definition
+//     console.log(name)
+// }
+
